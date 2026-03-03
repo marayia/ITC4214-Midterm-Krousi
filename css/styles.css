@@ -1,3 +1,17 @@
 body {
-    
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    background-color: #dedede !important; /* Example custom color */
+}
+
+.nav-link.active {
+    color: #8d2323 !important; /* Highlight your active page */
+    border-bottom: 2px solid #8d2323;
 }
