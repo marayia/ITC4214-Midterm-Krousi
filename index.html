@@ -1,3 +1,4 @@
+<!-- Home Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +8,15 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="./js/navbar.js" defer></script>
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <header class="p-4">
-            <h1>Welcome</h1>
+    <header class="p-4 text-center">
+            <h1>KMC STUDIOS</h1>
     </header>
-    <div class="container">
+    <div class="container text-center">
         <!-- Studio Description Section -->
         <div>
             <h2>Hello!</h2>
@@ -26,20 +29,27 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <!-- gallery view of published games - links to Our Games page -->
-        <div>
+        <div class="container p-3 text-center">
             <h1>Explore Our Games</h1>
-            <ul>
-                <li>game pic 1</li>
-                <li>game pic 2</li>
-            </ul>
+            <div class="row justify-content-center g-3">
+                <div class="col-auto">
+                    <a class="btn btn-primary" href="./games.html" role="button">ROLLING KNIGHT</a>
+                </div>
+                <div class="col-auto">
+                    <a class="btn btn-primary" href="./games.html" role="button">Christmas Carol: Ghost of the past</a>
+                </div>
+                <div class="col-auto">
+                    <a class="btn btn-primary" href="./games.html" role="button">Upcoming...</a>
+                </div>
+            </div>
         </div>
         <!-- Task page button -->
         <div>
             <h2>Interested in our progress?</h2>
-            <a href="./tasks.html">Take me to Tasks</a>
+            <a class="btn btn-primary" href="./tasks.html" role="button">Take me to Tasks</a>
         </div>
         <!-- latest activity -->
-        <div>
+        <div class="py-3">
             <h2>Activities</h2>
             <p>Pretend there is an activity list here</p>
         </div>

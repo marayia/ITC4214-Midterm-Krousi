@@ -8,10 +8,17 @@ h1, h2, h3 {
 }
 
 .navbar {
-    background-color: #dedede !important; /* Example custom color */
+    background-color: #a49892 !important; /* Example custom color */
+    font-size: large;
+    font-weight: 300;   
 }
 
 .nav-link.active {
     color: #8d2323 !important; /* Highlight your active page */
     border-bottom: 2px solid #8d2323;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-family: 'Pixel Operator', monospace;
 }
