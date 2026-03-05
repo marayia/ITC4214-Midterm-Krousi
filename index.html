@@ -8,26 +8,37 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="./js/navbar.js" defer></script>
     <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <header class="p-4 text-center">
-            <h1>KMC STUDIOS</h1>
-    </header>
-    <div class="container text-center">
+    <main class="container-fluid text-center">
+
+        <header class="p-4 text-center fs-1">
+            <h1>KMC STUDIOS</h1><hr class="border border-2 opacity-50">
+        </header>
+
         <!-- Studio Description Section -->
+
         <div>
-            <h2>Hello!</h2>
-            <p>We are a small indie studio based in Athens, Greece. We have a passion for rich story telling</p>
+            <img src="./img/tplogo.png">
+            <h1>Hello World!</h1>
+            <p>
+                We are a small indie studio based in Athens, Greece. 
+                Founded by a passionate team of students, <br> we craft pixel-art games with
+                rich story telling and engaging gameplay. From action-platformers to visual novels, we make it all!
+            </p>
         </div>
+
         <!-- recent release ad -->
         <div class="container">
-            <h1>New Release</h1>
+            <h1>New Release!</h1>
             <h2>Rolling Knight</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="ratio ratio-16x9 small-video video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
+
         <!-- gallery view of published games - links to Our Games page -->
         <div class="container p-3 text-center">
             <h1>Explore Our Games</h1>
@@ -43,17 +54,19 @@
                 </div>
             </div>
         </div>
+
         <!-- Task page button -->
         <div>
             <h2>Interested in our progress?</h2>
             <a class="btn btn-primary" href="./tasks.html" role="button">Take me to Tasks</a>
         </div>
+
         <!-- latest activity -->
         <div class="py-3">
             <h2>Activities</h2>
             <p>Pretend there is an activity list here</p>
         </div>
-    </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

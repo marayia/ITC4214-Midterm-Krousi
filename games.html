@@ -11,39 +11,81 @@
     <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <div class="container justify-content text-center">
+    <main class="container justify-content text-center">
         <div class="container py-4">
             <h1>Our Games</h1><hr>
             <p>We specilize in pixel graphics and use pygame & unity for all our projects</p>
         </div>
+
         <!-- ids used by navbar.html -->
-        <div id="game1" class="container py-5">
-            <h1>Rolling Knight</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <!-- carousel with pictures of game -->
-            <!-- character profiles -->
+
+        <!-- game 1 -->
+        <div id="game1" class="container py-2">
+
+            <h1 class="">Rolling Knight</h1>
+
+            <img src="./img/rkpromo.png" class="img-fluid pb-5" alt="Rolling Knight Promotional Image">
+            <!-- Video Trailer -->
+            <div class="ratio ratio-16x9 small-video mx-auto mb-4">
+                <iframe src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="Rolling Knight" loading="lazy" allowfullscreen></iframe>
+            </div>
+
+            <!-- About / Description -->
+            <div class="container description">
+                <p class="mb-4">
+                    Short description of Rolling Knight, gameplay, story, and mechanics.
+                </p>
+            </div>
+            
+
+            <!-- Carousel Below Video -->
+            <div id="carouselGame1" class="carousel slide mx-auto small-video" data-bs-ride="carousel" style="max-width:500px;">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/bg.svg" class="d-block w-100" alt="Screenshot 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/bg.svg" class="d-block w-100" alt="Screenshot 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/bg.svg" class="d-block w-100" alt="Screenshot 3">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGame1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGame1" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
         </div>
-        <!--  -->
+
+
+        <!-- game2 -->
         <div id="game2" class="container py-5">
             <h1>Christmas Carol: Ghost of The Past</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="ratio ratio-16x9 small-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+            </div>
 
             <!-- about the game -->
             <!-- carousel with pictures of the game -->
-            <!-- video embed -->
         </div>
         <!-- separate div for unreleased games -->
         <div id="upcoming" class="container py-5">
             <!-- in-progress game -->
             <div class="container">
                 <h1>AIMA: Dynasty</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="ratio ratio-16x9 small-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+                </div>
 
                 <!-- about the game paragraph -->
                 <!-- link to home page activity board for updates & a newsletter form -->
             </div>
         </div>
-    </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
