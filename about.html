@@ -11,12 +11,100 @@
     <script src="./js/footer.js" defer></script>
 </head>
 <body>
-    <main class="container">
+    <main class="container-fluid text-center">
+
+        <header class="p-4 text-center fs-1">
+            <h1>About Us</h1><hr class="border border-2 opacity-50">
+        </header>
+
+        <!-- our story -->
         <div class="container text-center">
-            
+            <h1>Our Story</h1><hr class="border border-2 opacity-50">
+            <img class="img-fluid py-4 mb-4" src="./img/tplogo.png" alt="KMC Studios Logo">
+            <p class="fs-4">
+                <b>KMC Studios</b> was born out of a shared passion for gaming and storytelling. 
+                We are a group of students from Athens, Greece, to put our creativity into action. 
+                Our journey started in 2025, with the release of our first game, <a href="./games.html#game2" class="fs-4">Christmas Carol: Ghost of the Past</a>, which was met with great enthusiasm.
+                Since then, we have been dedicated to coding and designing games that we feel passionate about, and that resonate with others.
+            </p>
         </div>
-        <!-- gallery view of developers -->
-        <!--  -->
+
+        <!-- meet the team -->
+        <div class="container text-center py-4 mb-4">
+            <h1>Meet the Team</h1><hr class="border border-2 opacity-50">
+            <p class="fs-4">
+                Our team is made up of talented individuals who bring their unique skills and perspectives to the table. 
+                From game design and programming to art and storytelling, we work collaboratively to create immersive gaming experiences. 
+                We are committed to fostering a positive and inclusive work environment where creativity can thrive.
+            </p>
+            <div class="row justify-content-center g-4 mt-2"> 
+                <div class="col-auto">
+                    <div class="team-card">
+                        <img src="./img/emp1.png" alt="Maria Georgia Krousi" class="team-card-img">
+                        <div class="team-card-name">Maria Georgia Krousi</div>
+                        <div class="team-card-role">Game Designer & Programmer</div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="team-card">
+                        <img src="./img/emp2.png" alt="Anna Papadopoulou" class="team-card-img">
+                        <div class="team-card-name">Anna Papadopoulou</div>
+                        <div class="team-card-role">Artist & Storyteller</div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="team-card">
+                        <img src="./img/emp3.png" alt="Jean Doe" class="team-card-img">
+                        <div class="team-card-name">Jean Doe</div>
+                        <div class="team-card-role">Level Designer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- testimonials carousel -->
+        <div class="container py-4">
+            <h1>Your Reviews:</h1><hr class="border border-2 opacity-50">
+            <div id="testimonialsCarousel" class="carousel slide mx-auto mt-4" style="max-width: 700px;" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- testimonial 1 -->
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Rolling Knight is one of the most charming indie games I've played this year. The pixel art is stunning and the gameplay is addictive!"</p>
+                            <div class="testimonial-author">— Alex K., Steam Review</div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"I was blown away by the creativity and attention to detail in Christmas Carol: Ghost of the Past. A must-play for any indie game fan!"</p>
+                            <div class="testimonial-author">— Sarah L., Steam Review</div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"KMC Studios has quickly become one of my favorite indie developers. Their games are always a joy to play and full of heart."</p>
+                            <div class="testimonial-author">— Michael R., Steam Review</div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- carousel navigation -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
