@@ -11,82 +11,161 @@
     <script src="./js/footer.js" defer></script>
 </head>
 <body>
-    <main class="container justify-content text-center">
-        
-        <div class="container py-4">
-            <h1>Our Games</h1><hr>
-            <p>We specilize in pixel graphics and use pygame & unity for all our projects</p>
-        </div>
+    <main class="container-fluid text-center">
 
-        <!-- ids used by navbar.html -->
+        <header class="p-4">
+            <h1>Our Games</h1>
+            <hr class="border border-2 opacity-50">
+            <p class="fs-4 mx-auto" style="max-width: 700px;">
+                We specialize in pixel graphics and use Pygame & Unity for all our projects.
+                From action-packed platformers to narrative-driven adventures, our games are 
+                available on Steam, itch.io, and GameJolt — each one crafted with passion and 
+                a commitment to rich storytelling and engaging gameplay.
+            </p>
+        </header>
 
-        <!-- game 1 -->
-        <div id="game1" class="container py-2">
+        <!-- game 1: Rolling Knight -->
+        <section id="game1" class="container py-5">
+            <h1>Rolling Knight</h1>
+            <hr class="border border-2 opacity-50">
 
-            <h1 class="">Rolling Knight</h1>
-
-            <img src="./img/rkpromo.png" class="img-fluid pb-5" alt="Rolling Knight Promotional Image">
-            <!-- Video Trailer -->
+            <!-- video -->
             <div class="ratio ratio-16x9 small-video mx-auto mb-4">
-                <iframe src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="Rolling Knight" loading="lazy" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa"
+                    title="Rolling Knight Trailer" loading="lazy" allowfullscreen></iframe>
             </div>
 
-            <!-- About / Description -->
-            <div class="container description">
-                <p class="mb-4">
-                    Short description of Rolling Knight, gameplay, story, and mechanics.
+            <!-- description -->
+            <div class="mx-auto mb-5" style="max-width: 700px;">
+                <p class="fs-5">
+                    Rolling Knight is a fast-paced pixel-art platformer where you play as a knight 
+                    who can only move by rolling. Navigate treacherous dungeons, defeat enemies, 
+                    and master momentum-based movement to conquer each level.
                 </p>
             </div>
-            
 
-            <!-- Carousel Below Video -->
-            <div id="carouselGame1" class="carousel slide mx-auto small-video" data-bs-ride="carousel" style="max-width:500px;">
+            <!-- screenshot carousel -->
+            <div id="carouselGame1" class="carousel slide mx-auto mb-4" style="max-width: 800px;" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/bg.svg" class="d-block w-100" alt="Screenshot 1">
+                    <div class="carousel-item active">
+                        <img src="./img/rkpromo.png" class="d-block w-100" alt="Rolling Knight Screenshot 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/rknight_spritesheet_1.svg" class="d-block w-100" alt="Rolling Knight Screenshot 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/rknight_spritesheet_2.svg" class="d-block w-100" alt="Rolling Knight Screenshot 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/rknight_spritesheet_3.svg" class="d-block w-100" alt="Rolling Knight Screenshot 3">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./img/bg.svg" class="d-block w-100" alt="Screenshot 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/bg.svg" class="d-block w-100" alt="Screenshot 3">
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGame1" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                <!-- carousel controls -->
+                <button class="carousel-control-prev" aria-label="Previous" data-bs-target="#carouselGame1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselGame1" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
+                <button class="carousel-control-next" aria-label="Next" type="button" data-bs-target="#carouselGame1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
                 </button>
             </div>
 
-        </div>
+            <!-- link to steam download page -->
+            <a href="https://store.steampowered.com" aria-label="Download Rolling Knight" target="_blank" class="btn btn-primary">Download NOW!</a>
+        </section>
 
+        <hr class="border border-2 opacity-25 mx-auto" style="max-width: 80%;">
 
-        <!-- game2 -->
-        <div id="game2" class="container py-5">
+        <!-- game 2: christmas carol ── -->
+        <section id="game2" class="container py-5">
             <h1>Christmas Carol: Ghost of The Past</h1>
-            <div class="ratio ratio-16x9 small-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+            <hr class="border border-2 opacity-50">
+
+            <!-- video -->
+            <div class="ratio ratio-16x9 small-video mx-auto mb-4">
+                <iframe src="https://www.youtube.com/embed/Id2EaldBaWw?si=tAaVeKdzcwKiF-zU"
+                    title="Christmas Carol Trailer" loading="lazy" allowfullscreen></iframe>
             </div>
 
-            <!-- about the game -->
-            <!-- carousel with pictures of the game -->
-        </div>
-        <!-- separate div for unreleased games -->
-        <div id="upcoming" class="container py-5">
-            <!-- in-progress game -->
-            <div class="container">
-                <h1>AIMA: Dynasty</h1>
-                <div class="ratio ratio-16x9 small-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fXVy4mALHLY?si=AphftQrmSCIZwNwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+            <!-- description -->
+            <div class="mx-auto mb-5" style="max-width: 700px;">
+                <p class="fs-5">
+                    Christmas Carol: Ghost of The Past is a narrative-driven pixel-art adventure 
+                    inspired by the classic Dickens story. Follow Ebenezer Scrooge through haunting 
+                    visions of his past in this emotional and atmospheric short game filled with puzzles
+                    and narrative alternatives with a fresh twist.
+                </p>
+            </div>
+
+            <!-- screenshot carousel -->
+            <div id="carouselGame2" class="carousel slide mx-auto mb-4" style="max-width: 800px;" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/ccarol_ss1.png" class="d-block w-100" alt="Christmas Carol Screenshot 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/ccarol_ss2.png" class="d-block w-100" alt="Christmas Carol Screenshot 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/ccarol_ss3.png" class="d-block w-100" alt="Christmas Carol Screenshot 3">
+                    </div>
                 </div>
-
-                <!-- about the game paragraph -->
-                <!-- link to home page activity board for updates & a newsletter form -->
+                <button class="carousel-control-prev" aria-label="Previous" data-bs-target="#carouselGame2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" aria-label="Next" type="button" data-bs-target="#carouselGame2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
-        </div>
+
+            <a href="https://store.steampowered.com" aria-label="Download Christmas Carol" target="_blank" class="btn btn-primary">Download NOW!</a>
+
+        </section>
+
+        <hr class="border border-2 opacity-25 mx-auto" style="max-width: 80%;">
+
+        <!-- upcoming: AIMA Dynasty-->
+        <section id="upcoming" class="container py-5">
+            <h1 class="text-warning pb-4 fs-1">Upcoming</h1><hr class="border border-2 opacity-50 m-b-5">
+            <h1>AIMA: Dynasty</h1>
+            <hr class="border border-2 opacity-50">
+
+            <!-- video -->
+            <div class="ratio ratio-16x9 small-video mx-auto mb-4">
+                <iframe src="https://www.youtube.com/embed/1lJBNZ1Dk6k?si=LsThAEuIGNjXMA8P"
+                    title="AIMA Dynasty Teaser" loading="lazy" allowfullscreen></iframe>
+            </div>
+
+            <!-- description -->
+            <div class="mx-auto mb-5" style="max-width: 700px;">
+                <p class="fs-5">
+                    AIMA: Dynasty is our most ambitious project yet — a pixel-art strategy RPG 
+                    set in a fictional ancient empire. Explore the dark depths of this forgotten world.
+                    Cults, monsters, and ancient technology await as you uncover the secrets of the AIMA dynasty.
+                </p>
+            </div>
+
+            <!-- screenshot carousel -->
+            <div id="carouselUpcoming" class="carousel slide mx-auto mb-4" style="max-width: 800px;" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/aima_ss1.png" class="d-block w-100" alt="AIMA Dynasty Screenshot 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/aima_ss2.png" class="d-block w-100" alt="AIMA Dynasty Screenshot 2">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselUpcoming" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselUpcoming" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <a href="./tasks.html" aria-label="Stay Tuned!" class="btn btn-primary">Stay Tuned!</a>
+        </section>
+
     </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
