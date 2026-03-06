@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/navbar.js" defer></script>
     <script src="./js/footer.js" defer></script>
+    <script src="./js/dadjoke.js" defer></script>
 </head>
 <body>
     <main class="container-fluid text-center">
@@ -85,6 +86,17 @@
                 <li class="activity-item"><span class="activity-time">Feb 20</span> Christmas Carol v1.2 patch released</li>
                 <li class="activity-item"><span class="activity-time">Feb 14</span> AIMA:Dynasty announcement</li>
             </ul>
+        </section>
+
+        <!-- fun extra -->
+        <!-- Dad Joke of the Day API -->
+        <section class="container py-4">
+            <h2>Dev Joke of the Day</h2>
+            <hr class="border border-2 opacity-50">
+            <div class="pixel-box mx-auto mt-3" style="max-width: 600px;">
+                <p id="jokeText" class="fs-5 fst-italic mb-3">Loading joke...</p>
+                <button id="newJokeBtn" class="btn btn-primary">New Joke</button>
+            </div>
         </section>
 
     </main>
