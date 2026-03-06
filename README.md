@@ -11,6 +11,9 @@ Goal of this project is to showcase skill in client-side and server side languag
 [![JavaScript][JavaScript]][JS-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
+## Deployment:
+Hosted with GitHub Pages
+
 > README structure adapted from  
 > [othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
