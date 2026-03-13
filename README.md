@@ -12,7 +12,7 @@ Goal of this project is to showcase skill in client-side and server side languag
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 ## Deployment:
-Hosted with GitHub Pages
+[Hosted with GitHub Pages](https://marayia.github.io/ITC4214-Midterm-Krousi/)
 
 > README structure adapted from  
 > [othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
